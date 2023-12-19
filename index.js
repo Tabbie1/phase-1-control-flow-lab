@@ -9,7 +9,7 @@ function scuberGreetingForFeet(travel){
     return('No can do.');
   }
 }
-
+console.log(scuberGreetingForFeet(2505));
 
 function ternaryCheckCity(cityname){
   if(cityname =='NYC'){
@@ -28,7 +28,7 @@ function switchOnCharmFromTip(funds){
     return 'Thank you so much.';
   }
 
-  else if(funds!='generous'){
+  else if(funds =='not as generous'){
     return 'Thank you.';
   }
   else{
